@@ -1,27 +1,96 @@
-<!DOCTYPE HTML><!-- isso é um DTD  de HTML5 -->
+<!DOCTYPE html>
+<!-- Isso é um DTD de HTML5 -->
 <!--
 Isso é um comentário
 A <!DOCTYPE html> document type definition, declaração define que este documento é um documento HTML5.
 -->
 
-<!-- O HTML é a tag raiz da estrutura hmtl, todo o conteúdo deve ser criado dentro dele. 
+<!-- O HTML é a tag raiz da estrutura html, todo o conteúdo deve ser criado dentro dele.
 -->
-
 <html>
-   <!--
-      <head> Elemento contém meta informações sobre a página HTML
-   -->
-   <head>
-       <meta charset="UTF-8"/>
-	   <meta name="viewport" content="widt=device-width, initial-scale=1.0">
-	   <title>EXEMPLO</title>
+  <!-- 
+		<head> Elemento contém meta informações sobre a página HTML
+	-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EXEMPLO</title>
   </head>
   <body>
-   <h1>Exemplo de Cabeçalhos</h1>
-   <h2>Segundo Título</h2>
-   <h3>Terceiro Título</h3>
-   <h4>Quarto Título</h4>
-   <h5>Quinto Titulo</h5>
-   <h6>Sexto Título</h6>
+    <div class="container">
+      <header class="cabecalho">
+        <h1>Minha Página</h1>
+        <nav>
+          <!-- ul = unordered list e dentro dela somente podemos adicionar elementos li = list item.-->
+          <ul>
+            <li><a href="./paginas/help.html">Help</a></li>
+            <li><a href="./paginas/contact.html">Contact</a></li>
+            <li><a href="./paginas/about.html">About</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <hr />
+
+      <section class="conteudo">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe nulla
+          minus rerum dolorum dignissimos. Officia quas, illum harum optio vel
+          repellendus velit necessitatibus omnis distinctio consectetur,
+          provident quidem veniam, dolores explicabo unde nisi quaerat est
+          voluptas voluptatum architecto dolorum deleniti. Doloribus nisi
+          aliquid corrupti dolorum voluptates iure iusto voluptatem aut, harum
+          iste beatae reiciendis molestiae quia cupiditate similique magni
+          veritatis deleniti incidunt. Delectus, nobis modi, minus illum est
+          dolorum deserunt quae doloribus inventore veniam assumenda aperiam
+          fugiat cumque vero? Delectus eaque nihil voluptas labore inventore
+          magni iusto quos ullam aperiam vitae laudantium quae nemo
+          exercitationem consequuntur praesentium, neque sequi expedita?
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum modi
+          illo excepturi voluptate nihil rerum asperiores consequatur eos quia
+          reprehenderit commodi, dolores doloribus dolore natus. At, assumenda
+          hic ullam distinctio aut harum consequuntur, sapiente amet, fuga ab
+          mollitia cumque nostrum molestiae magnam numquam repudiandae
+          aspernatur cum recusandae minima possimus suscipit.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio eaque
+          minus, explicabo, eius itaque, eligendi facere maiores natus quos et
+          quasi in dignissimos ab? Praesentium accusamus ullam suscipit rerum.
+          Accusantium.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veniam,
+          itaque at earum quis eaque aut ipsam obcaecati maxime corporis
+          reprehenderit sapiente voluptas voluptatum distinctio tempora cum,
+          nesciunt, ducimus perferendis atque vel ad. Laudantium, perspiciatis
+          eligendi deserunt minus nemo debitis asperiores rem, sequi eius labore
+          alias molestiae iure molestias sed reprehenderit tempore facere. Quia
+          facilis blanditiis ullam iusto dignissimos harum fugit praesentium
+          maiores nemo! Enim eius quae dolores perspiciatis fugiat similique
+          facilis quod, excepturi odio, voluptate consequatur quasi quia at.
+          Quia, quis vero! Ipsum dolor impedit mollitia aspernatur ipsa
+          voluptatem deleniti, aperiam laudantium in! Sint a voluptatem
+          dignissimos esse eos!
+        </p>
+      </section>
+
+      <footer class="rodape">
+        <nav>
+          <ul>
+            <li>
+              <a href="https://www2.fiap.com.br/" target="_blank"> FIAP </a>
+            </li>
+            <li>
+              <a href="https://www.google.com.br/" target="_blank">GOOGLE</a>
+            </li>
+            <li><a href="https://github.com/" target="_blank">Github</a></li>
+          </ul>
+        </nav>
+        <p>Todos os direitos reservados <small>2024 - &copy;</small></p>
+      </footer>
+    </div>
   </body>
 </html>

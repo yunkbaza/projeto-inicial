@@ -1,41 +1,58 @@
 header {
-     background-color: #0000ff
+    background-color: #0000ff
 }
 
-h1{
-    font-family: 'Times New Roman',  Times, serif; 
+h1 {
+    font-family: 'Times New Roman', Times, serif;
 }
 
-h2{
-    font-family: 'Times New Roman',  Times, serif; 
+h2 {
+    font-family: 'Times New Roman', Times, serif;
 }
 
-nav ul li{
+nav ul li {
     font-weight: bolder;
 }
 
-#container{
+#container {
+    background-color: #ccc;
+}
+
+.cabecalho {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    background-image: url("./img/exemplo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 10px;
+    background-color: #ccc;
+}
+
+.conteudo {
     line-height: 10px;
 }
 
-.conteudo{
-    line-height: 10px;
-}
-
-form{
+form {
     border: solid 1px #808080;
     padding: 10px;
 }
 
-p{
+p {
     color: #008000;
 }
 
-button{
+button {
     background-color: #0000ff;
     color: #ffffff;
 }
 
-footer{
+footer {
     border-top: solid 2px #ff0000;
 }

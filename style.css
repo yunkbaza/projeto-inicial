@@ -15,10 +15,19 @@ nav ul li{
 }
 
 #container{
-    line-height: ;
+    line-height: 10px;
 }
 
 .conteudo{
-    line-height: ;
+    line-height: 10px;
+}
+
+form{
+    border: solid 1px #808080;
+    padding: 10px;
+}
+
+p{
+    color: #008000;
 }
 
